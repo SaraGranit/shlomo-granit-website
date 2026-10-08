@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "export": "npm run build && node scripts/export-static.cjs",
     "preview": "vite preview"
   },
   "devDependencies": {

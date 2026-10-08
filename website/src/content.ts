@@ -97,5 +97,5 @@ export function metadata(rawPath: string) {
   if (path === '/privacy/') return { title: `פרטיות | ${site.name}`, description: 'מידע על פרטיות ושימוש באתר הרב שלמה גרנית.' }
   if (path === '/accessibility/') return { title: `נגישות | ${site.name}`, description: 'מידע על התאמות הנגישות ודרכי השימוש באתר.' }
   if (path !== '/') return { title: `העמוד לא נמצא | ${site.name}`, description: 'העמוד המבוקש אינו קיים באתר.' }
-  return { title: `${site.name} | תורה, קהילה ומשפחה`, description: 'הרב שלמה גרנית: שיעורי תורה והרצאות, עריכת חופות, ייעוץ וגישור, שלום בית וחינוך. להכיר את הרב ואת תחומי פעילותו.' }
+  return { title: `${site.name} | רב לחופה, שיעורי תורה, ייעוץ וגישור`, description: 'הרב שלמה גרנית, רב קהילה בשלומי: עריכת חופות וקידושין, שיעורי תורה והרצאות, ייעוץ, גישור ושלום בית והדרכת הורים. לתיאום: 052-710-2016.' }
 }
