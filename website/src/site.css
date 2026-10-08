@@ -89,12 +89,15 @@ img { display: block; max-width: 100%; }
 .about { border-bottom: 1px solid var(--line); }
 .about-layout { display: grid; grid-template-columns: 1fr 1.35fr; gap: 100px; }
 .about-heading h2 { font-size: 52px; line-height: 1.3; }
+.profile-photo { display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 32px; border: 4px solid #fff; box-shadow: 0 0 0 1px #adbba9; }
 .about-signature { display: block; font-family: 'Frank Ruhl Libre', serif; font-size: 23px; color: var(--forest); margin-top: 34px; padding-top: 22px; border-top: 1px solid #adbba9; width: fit-content; }
 .about-copy p + p { margin-top: 22px; }
 .about-copy .text-link { margin-top: 24px; }
 .invitation { background: #eaf0eb; text-align: center; padding-block: 64px; }
 .invitation h2 { font-size: 46px; line-height: 1.3; }
 .invitation .text-link { margin-top: 20px; }
+.invitation .text-link + .text-link { margin-inline-start: 36px; }
+.service-content .kol-halashon-link { margin-top: 32px; }
 .contact-band { background: var(--forest); color: #fff; padding-block: 64px; }
 .contact-layout { display: grid; grid-template-columns: 1.1fr 1fr; gap: 44px; align-items: center; }
 .contact-band .eyebrow, .contact-band p { color: #e0eae3; }
@@ -104,6 +107,8 @@ img { display: block; max-width: 100%; }
 .contact-actions .button-row { gap: 12px; }
 .contact-actions .button { gap: 12px; padding-inline: 18px; }
 .contact-band .contact-status { font-size: 12px; margin-top: 15px; max-width: 390px; }
+.contact-band .contact-details { font-size: 15px; margin-top: 15px; }
+.contact-band .contact-details a { color: inherit; }
 .site-footer { background: #fff; }
 .footer-main { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding-block: 42px; }
 .footer-main nav { display: flex; flex-wrap: wrap; gap: 24px; font-size: 14px; }
@@ -111,7 +116,6 @@ img { display: block; max-width: 100%; }
 .back-top { display: grid; place-items: center; width: 46px; height: 46px; flex-shrink: 0; border: 1px solid var(--line); }
 .footer-bottom { border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 22px; padding-block: 22px; color: var(--muted); font-size: 12px; }
 .footer-bottom > div { display: flex; gap: 20px; }
-.preview-label { font-size: 11px; }
 .service-hero { padding: 32px 0 70px; background: #eaf0eb; overflow: hidden; }
 .service-hero > .container { position: relative; }
 .breadcrumb { display: flex; gap: 12px; font-size: 13px; color: var(--muted); margin-bottom: 45px; }
@@ -123,6 +127,9 @@ img { display: block; max-width: 100%; }
 .service-emblem { position: absolute; inset-inline-end: 0; top: 80px; color: #c6d3c8; }
 .service-emblem svg { width: 180px; height: 180px; stroke-width: .65px; }
 .wedding-hero { background: #f0f1e9; }
+.wedding-hero > .container { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 260px); column-gap: 48px; align-items: center; }
+.wedding-hero .breadcrumb { grid-column: 1 / -1; }
+.wedding-photo { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px; box-shadow: 0 18px 40px rgba(40, 52, 42, .14); }
 .content-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 42px; }
 .content-item { border-top: 1px solid var(--line); padding-top: 24px; }
 .step-number { display: block; color: var(--forest); font-size: 13px; margin-bottom: 26px; }
@@ -149,15 +156,6 @@ img { display: block; max-width: 100%; }
 .prose h1 { margin-bottom: 30px; }
 .prose h2 { font-size: 30px; margin: 36px 0 14px; }
 .prose .text-link, .prose .button { margin-top: 32px; }
-dialog { border: 1px solid var(--line); border-radius: 8px; padding: 32px; max-width: 660px; width: calc(100% - 40px); max-height: 85svh; overflow-y: auto; color: var(--ink); background: var(--paper); }
-dialog::backdrop { background: #15271ec4; }
-.dialog-top { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-.dialog-top .eyebrow { margin: 0; }
-.icon-button { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--line); background: transparent; color: var(--ink); }
-dialog h2 { font-size: 36px; margin-block: 16px 24px; }
-dialog p { font-size: 16px; margin-top: 18px; }
-dialog .source-note { font-size: 13px; padding-top: 18px; border-top: 1px solid var(--line); }
-dialog .text-link { font-size: 14px; margin-top: 16px; }
 @keyframes rise { from { transform: translateY(12px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 @media (min-width: 1600px) { .hero-inner { min-height: 600px; } }
 @media (max-width: 1080px) {
@@ -219,6 +217,7 @@ dialog .text-link { font-size: 14px; margin-top: 16px; }
   .service-more { margin-top: 15px; grid-column: 1 / -1; }
   .about-layout { grid-template-columns: 1fr; gap: 28px; }
   .about-heading h2 { font-size: 40px; }
+  .profile-photo { width: 150px; height: 150px; margin-bottom: 22px; }
   .about-signature { margin-top: 22px; padding-top: 14px; }
   .lead { font-size: 20px; }
   .about-copy p + p { margin-top: 18px; }
@@ -230,12 +229,13 @@ dialog .text-link { font-size: 14px; margin-top: 16px; }
   .footer-main { padding-block: 28px; gap: 20px; }
   .footer-main nav { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 22px; font-size: 13px; }
   .footer-bottom { flex-direction: column; align-items: start; gap: 12px; font-size: 12px; }
-  .preview-label { order: 3; }
   .service-hero { padding: 24px 0 44px; }
   .breadcrumb { margin-bottom: 34px; font-size: 12px; }
   .service-hero-content h1 { font-size: 42px; }
   .service-hero-content .lead { font-size: 18px; }
   .service-emblem { display: none; }
+  .wedding-hero > .container { grid-template-columns: 1fr; }
+  .wedding-photo { margin-top: 28px; max-width: 240px; }
   .content-grid { grid-template-columns: 1fr; gap: 24px; }
   .content-item { padding-top: 20px; }
   .step-number { margin-bottom: 15px; }
@@ -245,8 +245,6 @@ dialog .text-link { font-size: 14px; margin-top: 16px; }
   .faq-list summary { font-size: 16px; gap: 15px; padding-block: 20px; }
   .related-links { flex-direction: column; gap: 12px; }
   .related-links a { justify-content: space-between; }
-  dialog { padding: 24px; }
-  dialog h2 { font-size: 30px; }
   .prose h1 { font-size: 42px; }
 }
 @media (max-height: 760px) {

@@ -30,11 +30,6 @@ test('האתר העברי מוצג במקום דוגמת Vite', async ({ page },
   await expect.poll(() => page.locator('.hero-photo').evaluate((image: HTMLImageElement) => image.complete && image.naturalWidth > 0)).toBe(true)
   await page.evaluate(() => document.fonts.ready)
   await page.screenshot({ path: testInfo.outputPath('desktop.png'), fullPage: true, animations: 'disabled' })
-  await page.getByRole('button', { name: 'עוד על הרקע התורני' }).click()
-  await expect(page.getByRole('dialog')).toBeVisible()
-  await page.keyboard.press('Escape')
-  await expect(page.getByRole('dialog')).not.toBeVisible()
-  await expect(page.getByRole('button', { name: 'עוד על הרקע התורני' })).toBeFocused()
   expect(errors).toEqual([])
 })
 
