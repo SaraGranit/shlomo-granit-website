@@ -1,31 +1,23 @@
-name: Deploy static site to GitHub Pages
+name: Publish static site to gh-pages
 
 on:
   push:
     branches: [main]
-    paths: ['static-site/**', '.github/workflows/pages.yml']
+    paths: ['static-site/**']
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
         with:
-          path: static-site
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          fetch-depth: 0
+      - run: git push origin "$(git subtree split --prefix static-site HEAD):refs/heads/gh-pages" --force
