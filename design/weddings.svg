@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1810" viewBox="0 0 1640 1810" role="img" aria-labelledby="title description">
+  <title id="title">Rabbi Shlomo Granit - Wedding page design proposal</title>
+  <desc id="description">Static desktop and mobile service-page compositions with a photo placeholder, proposed four-step process, collapsed questions, and contact band. English review copy; approval pending.</desc>
+  <defs>
+    <style>
+      text { font-family: Heebo, Candara, sans-serif; fill: #252A27; letter-spacing: 0; }
+      .display { font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 500; }
+      .note { font-size: 14px; fill: #59655E; }
+      .body { font-size: 18px; }
+      .muted { fill: #59655E; }
+      .white { fill: #FFFFFF; }
+      .green { fill: #245747; }
+      .label { font-size: 12px; font-weight: 600; }
+      .button { font-size: 17px; font-weight: 600; }
+      .right { text-anchor: end; }
+      .center { text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="1640" height="1810" fill="#E8ECE8"/>
+  <text x="48" y="46" font-size="26" font-weight="600">02 / Wedding Ceremonies</text>
+  <text x="48" y="75" class="note">Service-page design | Same identity, task-specific content | English review copy, proposed Hebrew / RTL website</text>
+  <text x="1580" y="46" class="note right">DESIGN ONLY / APPROVAL PENDING</text>
+  <text x="48" y="112" class="label muted">DESKTOP COMPOSITION</text>
+  <text x="1190" y="112" class="label muted">MOBILE / 390 PX</text>
+
+  <rect x="48" y="132" width="1060" height="1512" fill="#F7F8F5" stroke="#D5DDD6"/>
+  <rect x="48" y="132" width="1060" height="80" fill="#FFFFFF"/>
+  <text x="1060" y="165" class="display right" font-size="23">Shlomo Granit</text>
+  <text x="1060" y="187" class="note right">Rabbi</text>
+  <g font-size="15">
+    <text x="840" y="177" class="right">Home</text>
+    <text x="764" y="177" class="right">Lectures</text>
+    <text x="665" y="177" class="right">Weddings</text>
+    <text x="554" y="177" class="right">Counseling</text>
+    <text x="428" y="177" class="right">Family</text>
+  </g>
+  <path d="M601 191 H665" stroke="#245747" stroke-width="2"/>
+  <rect x="96" y="148" width="146" height="48" rx="4" fill="#245747"/>
+  <text x="169" y="178" class="button white center">Get in touch</text>
+
+  <rect x="48" y="212" width="1060" height="422" fill="#E1E7E1"/>
+  <path d="M128 314 V276 H166 M370 276 H408 V314 M128 502 V540 H166 M370 540 H408 V502" fill="none" stroke="#718173" stroke-width="1.5"/>
+  <text x="268" y="395" class="label muted center">REAL CEREMONY PHOTO</text>
+  <text x="268" y="421" class="note center">Couple and photographer</text>
+  <text x="268" y="445" class="note center">permission required</text>
+  <text x="1060" y="264" class="note right">Home / Wedding Ceremonies</text>
+  <path d="M992 310 H1060" stroke="#99702D" stroke-width="3"/>
+  <text x="1060" y="375" class="display right" font-size="53">Wedding Ceremonies</text>
+  <text x="1060" y="423" class="body right">Preparing for your chuppah</text>
+  <text x="1060" y="453" class="body right">with Rabbi Shlomo Granit.</text>
+  <rect x="808" y="499" width="252" height="50" rx="4" fill="#245747"/>
+  <text x="934" y="531" class="button white center">Ask about your date</text>
+  <text x="96" y="604" class="label muted">PHOTO AREA / APPROACH AND SERVICE DETAILS REQUIRE APPROVAL</text>
+
+  <rect x="48" y="634" width="1060" height="326" fill="#FFFFFF"/>
+  <text x="1060" y="696" class="display right" font-size="34">From first conversation to chuppah</text>
+  <text x="1060" y="733" class="body muted right">A simple outline of the proposed coordination process.</text>
+  <path d="M122 788 H1040" stroke="#D5DDD6" stroke-width="2"/>
+  <g>
+    <circle cx="1036" cy="788" r="19" fill="#245747"/>
+    <text x="1036" y="793" class="white center" font-size="14">01</text>
+    <circle cx="788" cy="788" r="19" fill="#245747"/>
+    <text x="788" y="793" class="white center" font-size="14">02</text>
+    <circle cx="540" cy="788" r="19" fill="#245747"/>
+    <text x="540" y="793" class="white center" font-size="14">03</text>
+    <circle cx="292" cy="788" r="19" fill="#245747"/>
+    <text x="292" y="793" class="white center" font-size="14">04</text>
+  </g>
+  <g class="right">
+    <text x="1060" y="845" class="display" font-size="24">Initial inquiry</text>
+    <text x="1060" y="878" font-size="16" class="muted">Ask about date and location.</text>
+    <text x="812" y="845" class="display" font-size="24">Get acquainted</text>
+    <text x="812" y="878" font-size="16" class="muted">An introductory conversation.</text>
+    <text x="564" y="845" class="display" font-size="24">Preparation</text>
+    <text x="564" y="878" font-size="16" class="muted">Discuss the ceremony.</text>
+    <text x="316" y="845" class="display" font-size="24">The chuppah</text>
+    <text x="316" y="878" font-size="16" class="muted">Your wedding ceremony.</text>
+    <text x="1060" y="923" class="label muted">PROPOSED SEQUENCE / TO BE VERIFIED BY THE RABBI</text>
+  </g>
+
+  <text x="1060" y="1024" class="display right" font-size="34">Before we speak</text>
+  <text x="1060" y="1060" class="body muted right">Practical questions</text>
+  <path d="M96 1085 H1060 M96 1149 H1060 M96 1213 H1060 M96 1277 H1060" stroke="#D5DDD6"/>
+  <text x="1060" y="1124" class="body right">How do we ask about a wedding date?</text>
+  <text x="1060" y="1188" class="body right">What does the introductory conversation include?</text>
+  <text x="1060" y="1252" class="body right">Which locations are available?</text>
+  <g fill="none" stroke="#245747" stroke-width="1.5">
+    <path d="M106 1114 L112 1120 L118 1114"/>
+    <path d="M106 1178 L112 1184 L118 1178"/>
+    <path d="M106 1242 L112 1248 L118 1242"/>
+  </g>
+
+  <rect x="48" y="1320" width="1060" height="224" fill="#245747"/>
+  <text x="1060" y="1382" class="display white right" font-size="36">Let's begin with your date</text>
+  <text x="1060" y="1420" class="body white right">An inquiry is not a booking confirmation.</text>
+  <rect x="854" y="1452" width="206" height="50" rx="4" fill="#FFFFFF"/>
+  <text x="957" y="1484" class="button green center">Call the rabbi</text>
+  <rect x="626" y="1452" width="204" height="50" rx="4" fill="none" stroke="#FFFFFF"/>
+  <text x="728" y="1484" class="button white center">WhatsApp</text>
+  <text x="1060" y="1590" class="display right" font-size="23">Rabbi Shlomo Granit</text>
+  <text x="96" y="1590" class="note">Privacy / Accessibility</text>
+  <text x="1060" y="1621" class="note right">Contact details to be confirmed</text>
+
+  <rect x="1190" y="132" width="390" height="1534" fill="#F7F8F5" stroke="#D5DDD6"/>
+  <rect x="1190" y="132" width="390" height="72" fill="#FFFFFF"/>
+  <text x="1556" y="161" class="display right" font-size="22">Shlomo Granit</text>
+  <text x="1556" y="183" class="note right">Rabbi</text>
+  <path d="M1216 159 H1238 M1216 167 H1238 M1216 175 H1238" stroke="#252A27" stroke-width="2"/>
+  <rect x="1190" y="204" width="390" height="386" fill="#E1E7E1"/>
+  <text x="1556" y="242" class="note right">Home / Wedding Ceremonies</text>
+  <path d="M1508 289 H1556" stroke="#99702D" stroke-width="3"/>
+  <text x="1556" y="336" class="display right" font-size="36">Wedding</text>
+  <text x="1556" y="380" class="display right" font-size="36">Ceremonies</text>
+  <text x="1556" y="420" class="right" font-size="17">Preparing for your chuppah</text>
+  <text x="1556" y="448" class="right" font-size="17">with Rabbi Shlomo Granit.</text>
+  <rect x="1304" y="476" width="252" height="50" rx="4" fill="#245747"/>
+  <text x="1430" y="508" class="button white center">Ask about your date</text>
+  <text x="1214" y="564" class="label muted">APPROVED CEREMONY PHOTO REQUIRED</text>
+
+  <rect x="1190" y="590" width="390" height="448" fill="#FFFFFF"/>
+  <text x="1556" y="643" class="display right" font-size="28">From conversation</text>
+  <text x="1556" y="678" class="display right" font-size="28">to chuppah</text>
+  <path d="M1536 728 V960" stroke="#D5DDD6" stroke-width="2"/>
+  <g>
+    <circle cx="1536" cy="728" r="19" fill="#245747"/>
+    <text x="1536" y="733" class="white center" font-size="14">01</text>
+    <circle cx="1536" cy="802" r="19" fill="#245747"/>
+    <text x="1536" y="807" class="white center" font-size="14">02</text>
+    <circle cx="1536" cy="876" r="19" fill="#245747"/>
+    <text x="1536" y="881" class="white center" font-size="14">03</text>
+    <circle cx="1536" cy="950" r="19" fill="#245747"/>
+    <text x="1536" y="955" class="white center" font-size="14">04</text>
+  </g>
+  <g class="right">
+    <text x="1494" y="728" class="display" font-size="22">Initial inquiry</text>
+    <text x="1494" y="752" font-size="15" class="muted">Ask about date and location.</text>
+    <text x="1494" y="802" class="display" font-size="22">Get acquainted</text>
+    <text x="1494" y="826" font-size="15" class="muted">An introductory conversation.</text>
+    <text x="1494" y="876" class="display" font-size="22">Preparation</text>
+    <text x="1494" y="900" font-size="15" class="muted">Discuss the ceremony.</text>
+    <text x="1494" y="950" class="display" font-size="22">The chuppah</text>
+    <text x="1494" y="974" font-size="15" class="muted">Your wedding ceremony.</text>
+    <text x="1556" y="1016" class="label muted">PROPOSED PROCESS / APPROVAL REQUIRED</text>
+  </g>
+
+  <text x="1556" y="1088" class="display right" font-size="28">Before we speak</text>
+  <path d="M1214 1113 H1556 M1214 1177 H1556 M1214 1255 H1556 M1214 1319 H1556" stroke="#D5DDD6"/>
+  <text x="1556" y="1152" class="right" font-size="17">How do we ask about a date?</text>
+  <text x="1556" y="1208" class="right" font-size="17">What does the introductory</text>
+  <text x="1556" y="1233" class="right" font-size="17">conversation include?</text>
+  <text x="1556" y="1294" class="right" font-size="17">Which locations are available?</text>
+  <g fill="none" stroke="#245747" stroke-width="1.5">
+    <path d="M1218 1142 L1224 1148 L1230 1142"/>
+    <path d="M1218 1210 L1224 1216 L1230 1210"/>
+    <path d="M1218 1284 L1224 1290 L1230 1284"/>
+  </g>
+  <rect x="1190" y="1343" width="390" height="230" fill="#245747"/>
+  <text x="1556" y="1391" class="display white right" font-size="27">Let's begin with your date</text>
+  <text x="1556" y="1421" class="white right" font-size="15">An inquiry does not confirm a booking.</text>
+  <rect x="1214" y="1446" width="342" height="48" rx="4" fill="#FFFFFF"/>
+  <text x="1385" y="1477" class="button green center">Call the rabbi</text>
+  <rect x="1214" y="1508" width="342" height="48" rx="4" fill="none" stroke="#FFFFFF"/>
+  <text x="1385" y="1539" class="button white center">WhatsApp</text>
+  <text x="1556" y="1615" class="display right" font-size="23">Rabbi Shlomo Granit</text>
+  <text x="1556" y="1645" class="note right">Privacy / Accessibility</text>
+
+  <path d="M48 1720 H1580" stroke="#C3CDC4"/>
+  <text x="48" y="1754" class="note">Review: service-page hierarchy, ceremony photography direction, process layout, practical questions, and inquiry emphasis.</text>
+  <text x="48" y="1782" class="note">All service descriptions, process steps, photographs, and question answers require approval. No booking or contact functionality is implemented.</text>
+</svg>
